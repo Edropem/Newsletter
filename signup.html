@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.6">
     <title>Newsletter Signup</title>
-
+    <link rel="icon" href="img/pe.svg" type="icon">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/sign-in/">
 
     <!-- Bootstrap core CSS -->
@@ -48,7 +45,12 @@
   <input type="text" name="firstName"  class="form-control top-text-box" placeholder="First Name" required autofocus>
   <input type="text" name="lastName" class="form-control middle-text-box" placeholder="Last Name" required>
   <input type="email" required name="email" class="form-control bottom-text-box" placeholder="email" required>
-
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="agreeTerms" required>
+    <label class="form-check-label" for="exampleCheck1">By clicking here you agree to get monthly updates and articles about astrophysics, from microquasars to dark matter</label>
+  </div>
+  
+  <p></p>
 
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign me up!</button>
   <p class="mt-5 mb-3 text-muted">&copy; Pedro Escuredo</p>
